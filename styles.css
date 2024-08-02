@@ -22,7 +22,7 @@ header h1 {
 }
 
 header img#logo {
-    width: 100px;
+    width: 150px;
     position: absolute;
     top: 10px;
     left: 10px;
@@ -75,3 +75,28 @@ footer {
     width: 100%;
     bottom: 0;
 }
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animate-logo {
+    animation: fadeIn 2s ease-in-out;
+}
+
+.animate-text {
+    animation: fadeIn 3s ease-in-out;
+}
+
+.animate-section {
+    animation: fadeIn 2s ease-in-out;
+}
+
