@@ -47,17 +47,15 @@ nav ul li a {
     margin-top: 10px;
 }
 
-.language-switch button {
-    background-color: #333;
-    color: white;
-    border: none;
-    padding: 10px;
-    margin: 5px;
+.language-switch .flag {
+    width: 30px;
+    height: 20px;
     cursor: pointer;
+    margin: 0 5px;
 }
 
-.language-switch button:hover {
-    background-color: #555;
+.language-switch .flag:hover {
+    opacity: 0.7;
 }
 
 section {
@@ -99,4 +97,5 @@ footer {
 .animate-section {
     animation: fadeIn 2s ease-in-out;
 }
+
 
