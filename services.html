@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,9 +7,9 @@
     <link rel="stylesheet" href="styles.css">
     <script src="script.js" defer></script>
 </head>
-
 <body>
     <header>
+        <img src="logo.png" alt="SM Tech Logo" id="logo">
         <h1>SM Tech</h1>
         <nav>
             <ul>
@@ -28,20 +27,21 @@
     </header>
 
     <section id="services">
-        <h2 data-en="Our Services" data-sr="Naše usluge">Our Services</h2>
-        <ul>
-            <li data-en="Wiring of Power Distribution Cabinets" data-sr="Ožičenje ormara za raspodelu snage">Wiring of
-                Power Distribution Cabinets</li>
-            <li data-en="Wiring of Control Cabinets" data-sr="Ožičenje kontrolnih ormara">Wiring of Control Cabinets
-            </li>
-            <li data-en="PLC Programming" data-sr="PLC programiranje">PLC Programming</li>
-            <li data-en="HMI Programming" data-sr="HMI programiranje">HMI Programming</li>
-        </ul>
+        <h2 data-en="Our Services" data-sr="Naše usluge" class="animate-text">Our Services</h2>
+        <div class="service-item animate-text">
+            <h3 data-en="PLC Programming" data-sr="PLC Programiranje">PLC Programming</h3>
+            <img src="OIP (2).jfif" alt="PLC Programming">
+            <p data-en="We provide professional PLC programming services to optimize your industrial processes." data-sr="Pružamo profesionalne usluge programiranja PLC-ova kako bismo optimizovali vaše industrijske procese.">We provide professional PLC programming services to optimize your industrial processes.</p>
+        </div>
+        <div class="service-item animate-text">
+            <h3 data-en="HMI Programming" data-sr="HMI Programiranje">HMI Programming</h3>
+            <img src="simatic-hmi-tp1900-comfort-500x500.webp" alt="HMI Programming">
+            <p data-en="We offer HMI programming services to enhance user interaction with industrial systems." data-sr="Nudimo usluge programiranja HMI sistema kako bismo poboljšali interakciju korisnika sa industrijskim sistemima.">We offer HMI programming services to enhance user interaction with industrial systems.</p>
+        </div>
     </section>
 
     <footer>
         <p>&copy; 2024 SM Tech. All rights reserved.</p>
     </footer>
 </body>
-
 </html>
