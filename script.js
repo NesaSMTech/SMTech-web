@@ -7,3 +7,4 @@ function setLanguage(lang) {
 document.addEventListener('DOMContentLoaded', () => {
     setLanguage('en'); // Set default language to English
 });
+
