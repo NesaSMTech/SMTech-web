@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HMI Programming - SM Tech</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .language-switcher {
+            display: flex;
+            gap: 10px;
+            position: fixed;
+            top: 10px;
+            right: 10px;
+        }
+        .language-switcher img {
+            width: 30px;
+            height: 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="language-switcher">
+        <a href="?lang=sr"><img src="images/cropped-zastava-srbije-1-1.png" alt="Srpski"></a>
+        <a href="?lang=en"><img src="images/R%20(1).png" alt="English"></a>
+    </div>
+    <header>
+        <h1>HMI Programming</h1>
+    </header>
+    <main>
+        <section>
+            <h2>About Our HMI Programming Services</h2>
+            <p>SM Tech provides top-notch HMI programming services to ensure user-friendly interfaces for your automation systems. Our team designs intuitive and effective HMIs tailored to your operational needs.</p>
+        </section>
+        <section>
+            <h2>Benefits of Our HMI Services</h2>
+            <ul>
+                <li>Enhanced user experience</li>
+                <li>Increased efficiency</li>
+                <li>Custom interface design</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>Contact us: <a href="mailto:smtech1991@gmail.com">smtech1991@gmail.com</a> | Tel: 0605985107</p>
+    </footer>
+</body>
+</html>
