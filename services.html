@@ -1,50 +1,49 @@
 <!DOCTYPE html>
-<html lang="sr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Services - SM Tech</title>
+    <title>SM Tech - Services</title>
     <link rel="stylesheet" href="styles.css">
-    <style>
-        .language-switcher {
-            display: flex;
-            gap: 10px;
-            position: fixed;
-            top: 10px;
-            right: 10px;
-        }
-        .language-switcher img {
-            width: 30px;
-            height: 20px;
-            cursor: pointer;
-        }
-        .service-links a {
-            display: block;
-            margin: 10px 0;
-            text-decoration: none;
-            color: #000;
-        }
-    </style>
+    <script src="script.js" defer></script>
 </head>
 <body>
-    <div class="language-switcher">
-        <a href="?lang=sr"><img src="images/cropped-zastava-srbije-1-1.png" alt="Srpski"></a>
-        <a href="?lang=en"><img src="images/R%20(1).png" alt="English"></a>
-    </div>
     <header>
-        <h1>Our Services</h1>
+        <img src="logo.png" alt="SM Tech Logo" id="logo">
+        <h1>SM Tech</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="references.html">References</a></li>
+            </ul>
+        </nav>
+        <div class="language-switch">
+            <button id="lang-en" onclick="setLanguage('en')">English</button>
+            <button id="lang-sr" onclick="setLanguage('sr')">Srpski</button>
+        </div>
     </header>
-    <main>
-        <section class="service-links">
-            <h2>Services We Offer</h2>
-            <a href="plc_programming.html">PLC_PPROGRAMMING</a>
-            <a href="hmi_programming.html">HMI PROGRAMMING</a>
-            <!-- Ostale usluge -->
-        </section>
-    </main>
+
+    <section id="services">
+        <h2 data-en="Our Services" data-sr="Naše usluge" class="animate-text">Our Services</h2>
+        <div class="service-item animate-text">
+            <h3 data-en="PLC Programming" data-sr="PLC Programiranje">PLC Programming</h3>
+            <img src="OIP (2).jfif" alt="PLC Programming">
+            <p data-en="We provide professional PLC programming services to optimize your industrial processes." data-sr="Pružamo profesionalne usluge programiranja PLC-ova kako bismo optimizovali vaše industrijske procese.">We provide professional PLC programming services to optimize your industrial processes.</p>
+        </div>
+        <div class="service-item animate-text">
+            <h3 data-en="HMI Programming" data-sr="HMI Programiranje">HMI Programming</h3>
+            <img src="simatic-hmi-tp1900-comfort-500x500.webp" alt="HMI Programming">
+            <p data-en="We offer HMI programming services to enhance user interaction with industrial systems." data-sr="Nudimo usluge programiranja HMI sistema kako bismo poboljšali interakciju korisnika sa industrijskim sistemima.">We offer HMI programming services to enhance user interaction with industrial systems.</p>
+        </div>
+    </section>
+
     <footer>
-        <p>Contact us: <a href="mailto:smtech1991@gmail.com">smtech1991@gmail.com</a> | Tel: 0605985107</p>
+        <p>&copy; 2024 SM Tech. All rights reserved.</p>
     </footer>
 </body>
 </html>
+
 
