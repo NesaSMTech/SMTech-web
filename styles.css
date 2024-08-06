@@ -43,12 +43,8 @@ nav a {
     display: flex;
 }
 
-.flag {
-    width: 32px;
-    height: 32px;
-    cursor: pointer;
-    margin-left: 0.5rem;
-}
+
+
 .flag {
     width: 30px;
     height: auto;
