@@ -49,7 +49,12 @@ nav a {
     cursor: pointer;
     margin-left: 0.5rem;
 }
-
+.flag {
+    width: 30px;
+    height: auto;
+    cursor: pointer;
+    margin-left: 10px;
+}
 section {
     padding: 2rem;
     text-align: center;
