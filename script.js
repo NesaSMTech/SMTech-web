@@ -1,9 +1,10 @@
-function setLanguage(lang) {
-    document.querySelectorAll('[data-en]').forEach(el => {
-        el.innerText = el.getAttribute(`data-${lang}`);
+function setLanguage(language) {
+    const elements = document.querySelectorAll('[data-en], [data-sr]');
+    elements.forEach(element => {
+        if (language === 'sr') {
+            element.textContent = element.getAttribute('data-sr');
+        } else {
+            element.textContent = element.getAttribute('data-en');
+        }
     });
 }
-
-document.addEventListener('DOMContentLoaded', () => {
-    setLanguage('en'); // Set default language to English
-});
